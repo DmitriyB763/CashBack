@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71dfa6ae-08c3-4891-9c1c-38bf93e90ef4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/Cashback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/CashbackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/CashbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/CashbackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +57,39 @@
       <recent name="ru.netology.service" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CashbackTest.whenAmountEqualsBoundary">
+  <component name="RunManager" selected="JUnit.CashbackTest.whenAmountEquals0">
+    <configuration name="CashbackTest.testRemain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CashBack.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
+      <option name="METHOD_NAME" value="testRemain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CashbackTest.whenAmountEquals0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CashBack.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
+      <option name="METHOD_NAME" value="whenAmountEquals0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CashbackTest.testRemain" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CashBack.main" />
       <extension name="coverage">
@@ -86,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CashbackTest.whenAmountEqualsBoundary" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CashbackTest.whenAmountEquals0" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CashBack.main" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.service" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
-      <option name="METHOD_NAME" value="whenAmountEqualsBoundary" />
+      <option name="METHOD_NAME" value="whenAmountEquals0" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,9 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CashbackTest.whenAmountEqualsBoundary" />
-        <item itemvalue="TestNG.CashbackTest.whenAmountOverBoundary" />
+        <item itemvalue="JUnit.CashbackTest.whenAmountEquals0" />
+        <item itemvalue="JUnit.CashbackTest.testRemain" />
         <item itemvalue="TestNG.CashbackTest.testRemain" />
+        <item itemvalue="TestNG.CashbackTest.whenAmountOverBoundary" />
+        <item itemvalue="TestNG.CashbackTest.whenAmountEquals0" />
       </list>
     </recent_temporary>
   </component>
@@ -140,16 +164,5 @@
       <updated>1671640929144</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/service/CashbackTest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
