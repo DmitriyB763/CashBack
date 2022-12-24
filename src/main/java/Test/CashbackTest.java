@@ -1,16 +1,16 @@
-package ru.netology.service;
+package Test;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import ru.netology.service.Cashback;
 
-import static org.junit.Assert.assertEquals;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CashbackTest {
 
     Cashback cb = new Cashback();
 
-    @Test
+   @Test
     public void testRemain() {
 
         int actual = cb.remain(900);

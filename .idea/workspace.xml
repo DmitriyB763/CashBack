@@ -7,7 +7,7 @@
     <list default="true" id="71dfa6ae-08c3-4891-9c1c-38bf93e90ef4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/CashbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/CashbackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/CashbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/CashbackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,17 +57,32 @@
       <recent name="ru.netology.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CashbackTest.whenAmountEquals0">
+  <component name="RunManager" selected="JUnit.CashbackTest">
+    <configuration name="CashbackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CashBack.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CashbackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CashbackTest.testRemain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CashBack.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.service.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CashbackTest" />
       <option name="METHOD_NAME" value="testRemain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -78,12 +93,12 @@
       <module name="CashBack.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.service.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CashbackTest" />
       <option name="METHOD_NAME" value="whenAmountEquals0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -94,31 +109,13 @@
       <module name="CashBack.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.service.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
+      <option name="MAIN_CLASS_NAME" value="Test.CashbackTest" />
       <option name="METHOD_NAME" value="testRemain" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CashbackTest.whenAmountEquals0" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CashBack.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
-      <option name="METHOD_NAME" value="whenAmountEquals0" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,12 +127,12 @@
       <module name="CashBack.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.service.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.service.CashbackTest" />
+      <option name="MAIN_CLASS_NAME" value="Test.CashbackTest" />
       <option name="METHOD_NAME" value="whenAmountOverBoundary" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -146,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CashbackTest.whenAmountEquals0" />
+        <item itemvalue="JUnit.CashbackTest" />
         <item itemvalue="JUnit.CashbackTest.testRemain" />
+        <item itemvalue="JUnit.CashbackTest.whenAmountEquals0" />
         <item itemvalue="TestNG.CashbackTest.testRemain" />
         <item itemvalue="TestNG.CashbackTest.whenAmountOverBoundary" />
-        <item itemvalue="TestNG.CashbackTest.whenAmountEquals0" />
       </list>
     </recent_temporary>
   </component>
