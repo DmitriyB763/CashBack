@@ -1,13 +1,13 @@
-package Test;
+import org.junit.Test;
 import ru.netology.service.Cashback;
 
+import static org.junit.Assert.assertEquals;
 
-
-public class CashbackTest2 {
+public class CashbackTest {
 
     Cashback cb = new Cashback();
 
-    @Test
+   @Test
     public void testRemain() {
 
         int actual = cb.remain(900);
